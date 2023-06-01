@@ -78,7 +78,7 @@ const Management = ({
   const history = useHistory();
 
   const HandleGoBack = () => {
-    history.push("/Dashboard");
+    history.push("/corp-app-man-frontend/dashboard");
   };
 
   const handleDeleteEmp = async () => {

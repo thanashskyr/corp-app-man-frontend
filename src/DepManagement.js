@@ -57,7 +57,7 @@ const Management = ({ onNewDepAdded, selectedRow, onData, didExpand }) => {
 
   // Is called when the go back button is pressed and returns to Dashboard
   const HandleGoBack = () => {
-    history.push("/Dashboard");
+    history.push("/corp-app-man-frontend/dashboard");
   };
 
   // Is called when the Delete Departments button is called
