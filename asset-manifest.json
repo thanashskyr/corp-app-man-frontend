@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbccc6bc.css",
-    "main.js": "/static/js/main.815d9345.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
-    "static/media/backgr.jpg": "/static/media/backgr.b237763190fa2c2b1a38.jpg",
-    "static/media/cmaLogoNoBG.png": "/static/media/cmaLogoNoBG.7320d3d4672f7212a5fd.png",
-    "index.html": "/index.html",
-    "main.bbccc6bc.css.map": "/static/css/main.bbccc6bc.css.map",
-    "main.815d9345.js.map": "/static/js/main.815d9345.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/corp-app-man-frontend/static/css/main.b6c04be5.css",
+    "main.js": "/corp-app-man-frontend/static/js/main.ef412677.js",
+    "static/js/787.cda612ba.chunk.js": "/corp-app-man-frontend/static/js/787.cda612ba.chunk.js",
+    "static/media/backgr.jpg": "/corp-app-man-frontend/static/media/backgr.b237763190fa2c2b1a38.jpg",
+    "static/media/cmaLogoNoBG.png": "/corp-app-man-frontend/static/media/cmaLogoNoBG.7320d3d4672f7212a5fd.png",
+    "index.html": "/corp-app-man-frontend/index.html",
+    "main.b6c04be5.css.map": "/corp-app-man-frontend/static/css/main.b6c04be5.css.map",
+    "main.ef412677.js.map": "/corp-app-man-frontend/static/js/main.ef412677.js.map",
+    "787.cda612ba.chunk.js.map": "/corp-app-man-frontend/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbccc6bc.css",
-    "static/js/main.815d9345.js"
+    "static/css/main.b6c04be5.css",
+    "static/js/main.ef412677.js"
   ]
 }
