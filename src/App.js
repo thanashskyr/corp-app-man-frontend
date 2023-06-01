@@ -15,7 +15,7 @@ function App() {
           <div className="content">
             <Switch>
               <Route exact path="/corp-app-man-frontend" component={Login} />
-              <Route
+              <PrivateRoute
                 exact
                 path="/corp-app-man-frontend/dashboard"
                 component={Dashboard}
