@@ -4,6 +4,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const theme = createTheme({
   typography: {
@@ -15,9 +16,9 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter basename="/corp-app-man-frontend">
+      <HashRouter basename="/corp-app-man-frontend">
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

@@ -14,20 +14,16 @@ function App() {
         <div className="App">
           <div className="content">
             <Switch>
-              <Route exact path="/corp-app-man-frontend" component={Login} />
+              <Route exact path="/" component={Login} />
+              <PrivateRoute exact path="/dashboard" component={Dashboard} />
               <PrivateRoute
                 exact
-                path="/corp-app-man-frontend/dashboard"
-                component={Dashboard}
-              />
-              <PrivateRoute
-                exact
-                path="/corp-app-man-frontend/Employee"
+                path="/Employee"
                 component={Employees}
               ></PrivateRoute>
               <PrivateRoute
                 exact
-                path="/corp-app-man-frontend/Department"
+                path="/Department"
                 component={Departments}
               ></PrivateRoute>
             </Switch>

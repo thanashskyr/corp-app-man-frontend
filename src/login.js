@@ -49,7 +49,7 @@ const Login = () => {
           console.log("Token:", storedToken);
           console.log("Response:", data.message);
           if (data.token) {
-            history.push("/corp-app-man-frontend/dashboard");
+            history.push("/dashboard");
           }
         } catch (error) {
           console.log("Unauthorised");
