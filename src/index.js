@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom"; // Import BrowserRouter
 import App from "./App";
 
 const theme = createTheme({
@@ -13,12 +13,11 @@ const theme = createTheme({
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
-      <HashRouter> */}
-    <App />
-    {/* </HashRouter>
-    </ThemeProvider> */}
+      <BrowserRouter basename={process.env.PUBLIC_URL} />
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
