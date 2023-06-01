@@ -13,12 +13,12 @@ const theme = createTheme({
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    {/* <ThemeProvider theme={theme}>
       <CssBaseline />
-      <HashRouter>
-        <App />
-      </HashRouter>
-    </ThemeProvider>
+      <HashRouter> */}
+    <App />
+    {/* </HashRouter>
+    </ThemeProvider> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
