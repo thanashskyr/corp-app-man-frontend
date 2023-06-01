@@ -10,7 +10,7 @@ const NavigationBar = () => {
   const HandleLogout = () => {
     const storedToken = localStorage.getItem("token");
 
-    fetch("corpapp.herokuapp.com/logout", {
+    fetch("https://corpapp.herokuapp.com/logout", {
       method: "POST",
       headers: {
         Authorization: "Bearer " + storedToken,

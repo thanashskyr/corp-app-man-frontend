@@ -116,7 +116,7 @@ const Management = ({ onNewDepAdded, selectedRow, onData, didExpand }) => {
     console.log(id);
     try {
       const storedToken = localStorage.getItem("token");
-      const response = await fetch(`corpapp.herokuapp.com/dep/${id}`, {
+      const response = await fetch(`https://corpapp.herokuapp.com/dep/${id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -173,7 +173,7 @@ const Management = ({ onNewDepAdded, selectedRow, onData, didExpand }) => {
 
     try {
       const storedToken = localStorage.getItem("token");
-      const response = await fetch("corpapp.herokuapp.com/dep", {
+      const response = await fetch("https://corpapp.herokuapp.com/dep", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -212,12 +212,15 @@ const Management = ({ onNewDepAdded, selectedRow, onData, didExpand }) => {
 
     try {
       const storedToken = localStorage.getItem("token");
-      const response = await fetch(`corpapp.herokuapp.com/dep/${id}/emp`, {
-        method: "GET",
-        headers: {
-          Authorization: "Bearer " + storedToken,
-        },
-      });
+      const response = await fetch(
+        `https://corpapp.herokuapp.com/dep/${id}/emp`,
+        {
+          method: "GET",
+          headers: {
+            Authorization: "Bearer " + storedToken,
+          },
+        }
+      );
       setShowDepartmentField(!showDepartmentField);
 
       if (response.status === 200) {

@@ -90,7 +90,7 @@ const Management = ({
       try {
         const storedToken = localStorage.getItem("token");
         const response = await fetch(
-          `corpapp.herokuapp.com/emp/${selectedID}`,
+          `https://corpapp.herokuapp.com/emp/${selectedID}`,
           {
             method: "DELETE",
             headers: {
@@ -122,7 +122,7 @@ const Management = ({
     }
     try {
       const storedToken = localStorage.getItem("token");
-      const response = await fetch("corpapp.herokuapp.com/dep", {
+      const response = await fetch("https://corpapp.herokuapp.com/dep", {
         method: "GET",
         headers: {
           Authorization: "Bearer " + storedToken,
@@ -169,7 +169,7 @@ const Management = ({
 
     try {
       const storedToken = localStorage.getItem("token");
-      const response = await fetch("corpapp.herokuapp.com/dep", {
+      const response = await fetch("https://corpapp.herokuapp.com/dep", {
         method: "GET",
         headers: {
           Authorization: "Bearer " + storedToken,
@@ -202,7 +202,7 @@ const Management = ({
     try {
       const storedToken = localStorage.getItem("token");
       const response = await fetch(
-        `corpapp.herokuapp.com/emp/byName?name=${getName}&&sirname=${getSirname}`,
+        `https://corpapp.herokuapp.com/emp/byName?name=${getName}&&sirname=${getSirname}`,
         {
           method: "GET",
           headers: {
@@ -227,7 +227,7 @@ const Management = ({
     try {
       const storedToken = localStorage.getItem("token");
       const response = await fetch(
-        `corpapp.herokuapp.com/emp/byVat?vat=${getVat}`,
+        `https://corpapp.herokuapp.com/emp/byVat?vat=${getVat}`,
         {
           method: "GET",
           headers: {
@@ -274,7 +274,7 @@ const Management = ({
       try {
         const storedToken = localStorage.getItem("token");
         const response = await fetch(
-          `corpapp.herokuapp.com/emp/${selectedID}`,
+          `https://corpapp.herokuapp.com/emp/${selectedID}`,
           {
             method: "PUT",
             headers: {
@@ -327,7 +327,7 @@ const Management = ({
 
     try {
       const storedToken = localStorage.getItem("token");
-      const response = await fetch("corpapp.herokuapp.com/emp", {
+      const response = await fetch("https://corpapp.herokuapp.com/emp", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -23,7 +23,7 @@ const Login = () => {
       username: username,
       password: password,
     };
-    fetch("corpapp.herokuapp.com/login", {
+    fetch("https://corpapp.herokuapp.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

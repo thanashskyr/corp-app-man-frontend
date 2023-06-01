@@ -35,7 +35,7 @@ const Departments = () => {
     const fetchDepData = async () => {
       try {
         const storedToken = localStorage.getItem("token");
-        const response = await fetch("corpapp.herokuapp.com/dep", {
+        const response = await fetch("https://corpapp.herokuapp.com/dep", {
           method: "GET",
           headers: {
             Authorization: "Bearer " + storedToken,

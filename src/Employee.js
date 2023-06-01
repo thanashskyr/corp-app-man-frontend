@@ -43,7 +43,7 @@ const Employees = () => {
     const fetchEmpData = async () => {
       try {
         const storedToken = localStorage.getItem("token");
-        const response = await fetch("corpapp.herokuapp.com/emp", {
+        const response = await fetch("https://corpapp.herokuapp.com/emp", {
           method: "get",
           headers: {
             Authorization: "Bearer " + storedToken,
