@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/corp-app-man-frontend/static/css/main.b6c04be5.css",
-    "main.js": "/corp-app-man-frontend/static/js/main.ce0f04bd.js",
+    "main.js": "/corp-app-man-frontend/static/js/main.f2a261f2.js",
     "static/media/backgr.jpg": "/corp-app-man-frontend/static/media/backgr.b237763190fa2c2b1a38.jpg",
     "static/media/cmaLogoNoBG.png": "/corp-app-man-frontend/static/media/cmaLogoNoBG.7320d3d4672f7212a5fd.png",
     "index.html": "/corp-app-man-frontend/index.html",
     "main.b6c04be5.css.map": "/corp-app-man-frontend/static/css/main.b6c04be5.css.map",
-    "main.ce0f04bd.js.map": "/corp-app-man-frontend/static/js/main.ce0f04bd.js.map"
+    "main.f2a261f2.js.map": "/corp-app-man-frontend/static/js/main.f2a261f2.js.map"
   },
   "entrypoints": [
     "static/css/main.b6c04be5.css",
-    "static/js/main.ce0f04bd.js"
+    "static/js/main.f2a261f2.js"
   ]
 }
