@@ -16,7 +16,6 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter basename={process.env.PUBLIC_URL} />
       <App />
     </ThemeProvider>
   </React.StrictMode>,
