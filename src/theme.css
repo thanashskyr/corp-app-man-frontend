@@ -1,0 +1,6 @@
+.body-background {
+  background-image: url("/src/backgr.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  height: 170vh;
+}
