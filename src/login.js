@@ -46,10 +46,8 @@ const Login = () => {
           localStorage.setItem("expirationTime", expirationTime.toString());
           const storedToken = localStorage.getItem("token");
 
-          console.log("Token:", storedToken);
-          console.log("Response:", data.message);
           if (data.token) {
-            history.push("/dashboard");
+            history.push("/corp-app-man-frontend/dashboard");
           }
         } catch (error) {
           console.log("Unauthorised");

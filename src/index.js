@@ -16,7 +16,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <HashRouter basename="/corp-app-man-frontend">
+      <HashRouter>
         <App />
       </HashRouter>
     </ThemeProvider>
