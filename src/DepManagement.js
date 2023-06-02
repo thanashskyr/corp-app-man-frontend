@@ -71,7 +71,7 @@ const Management = ({ onNewDepAdded, selectedRow, onData, didExpand }) => {
       try {
         const storedToken = localStorage.getItem("token");
         const response = await fetch(
-          `corpapp.herokuapp.com/dep/${selectedID}`,
+          `https://corpapp.herokuapp.com/dep/${selectedID}`,
           {
             method: "DELETE",
             headers: {
