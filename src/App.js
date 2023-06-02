@@ -22,12 +22,12 @@ function App() {
               />
               <PrivateRoute
                 exact
-                path="/Employee"
+                path="/corp-app-man-frontend/Employee"
                 component={Employees}
               ></PrivateRoute>
               <PrivateRoute
                 exact
-                path="/Department"
+                path="/corp-app-man-frontend/Department"
                 component={Departments}
               ></PrivateRoute>
             </Switch>
