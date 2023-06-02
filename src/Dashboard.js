@@ -6,12 +6,12 @@ import { useHistory } from "react-router-dom";
 const Dashboard = () => {
   const history = useHistory();
 
-  const HandleEmployee = async () => {
-    history.push("/corp-app-man-frontend/Employee");
+  const HandleEmployee = () => {
+    history.push("/corp-app-man-frontend/Employee/");
   };
 
   const HandleDepartment = async () => {
-    history.push("/corp-app-man-frontend/Department");
+    history.push("/corp-app-man-frontend/Department/");
   };
 
   return (
