@@ -1,6 +1,11 @@
 import React from "react";
 import Login from "./login";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Routes,
+} from "react-router-dom";
 import Dashboard from "./Dashboard";
 import Employees from "./Employee";
 import PrivateRoute from "./Auth";
@@ -13,7 +18,7 @@ function App() {
       <div className="body-background">
         <div className="App">
           <div className="content">
-            <Switch>
+            <Routes>
               <Route exact path="/corp-app-man-frontend" component={Login} />
               <PrivateRoute
                 exact
@@ -30,7 +35,7 @@ function App() {
                 path="/corp-app-man-frontend/Department"
                 component={Departments}
               ></PrivateRoute>
-            </Switch>
+            </Routes>
           </div>
         </div>
       </div>

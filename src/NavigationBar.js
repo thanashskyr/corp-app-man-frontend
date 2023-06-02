@@ -21,7 +21,7 @@ const NavigationBar = () => {
           localStorage.removeItem("token");
           localStorage.removeItem("expirationTime");
           console.log("Token deleted from local storage!");
-          history.push("/corp-app-man-frontend");
+          history.push("/corp-app-man-frontend/");
           return response;
         } else {
           throw new Error("Logout failed");
